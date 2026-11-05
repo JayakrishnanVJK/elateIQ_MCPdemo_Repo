@@ -1,0 +1,16 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - heading "Orion Shop" [level=1] [ref=e3]
+    - navigation [ref=e4]:
+      - link "Track an order" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - link "Cart" [ref=e6] [cursor=pointer]:
+        - /url: /cart
+  - main [ref=e7]:
+    - heading "Track your order" [level=2] [ref=e8]
+    - generic [ref=e9]:
+      - text: Order number
+      - textbox "Order number" [ref=e10]:
+        - /placeholder: ORD-1001
+      - button "Track" [ref=e11] [cursor=pointer]
+    - status
