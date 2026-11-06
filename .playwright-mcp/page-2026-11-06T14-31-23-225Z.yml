@@ -1,0 +1,23 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - heading "Orion Shop" [level=1] [ref=f1e3]
+    - navigation [ref=f1e4]:
+      - link "Track an order" [ref=f1e5] [cursor=pointer]:
+        - /url: /
+      - link "Cart" [ref=f1e6] [cursor=pointer]:
+        - /url: /cart
+  - main [ref=f1e7]:
+    - heading "Your cart" [level=2] [ref=f1e8]
+    - generic [ref=f1e9]:
+      - text: Cart value (Rs)
+      - spinbutton "Cart value (Rs)" [ref=f1e10]: "1000"
+      - paragraph [ref=f1e11]:
+        - text: Discount code
+        - textbox "Discount code" [ref=f1e12]:
+          - /placeholder: SAVE10
+        - button "Apply code" [ref=f1e13] [cursor=pointer]
+      - status
+      - paragraph [ref=f1e14]:
+        - text: "Total to pay:"
+        - strong [ref=f1e15]: Rs 1000
+      - button "Pay now" [ref=f1e16] [cursor=pointer]
